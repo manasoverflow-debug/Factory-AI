@@ -81,7 +81,7 @@ Decision History & Evaluation
 
 The main dashboard provides an overview of the smart manufacturing system, including machine data, quality monitoring, predictive maintenance, anomaly detection, and AI-driven decision support.
 
-![Factory AI Dashboard](dashboard.png)
+![Factory AI Dashboard](factory-overview.png)
 
 ---
 
@@ -89,7 +89,7 @@ The main dashboard provides an overview of the smart manufacturing system, inclu
 
 The Predictive Maintenance module evaluates machine conditions and estimates maintenance risk based on operational parameters such as temperature, rotational speed, torque, and tool wear.
 
-![Predictive Maintenance](predictive-maintenance.png)
+![Predictive Maintenance](predictive-maintainance.png)
 
 ---
 
@@ -306,12 +306,12 @@ Factory-AI/
 ├── human_approval.py
 ├── check.py
 │
+└── data/
+    └── AI_data.csv
 
 
 ##LIVE DEMO
 
-[OPEN THE BELOW LINK FOR THE FACTORY AI DASHBOARD]
+[OPEN THE BELOW LINK FOR FACTORY AI SMART MANUFACTURING,QUALITY-ANALYSIS AND PREDICTIVE-MAINTAINANCE]
 
 https://factory-ai-ycvqmsb8tdrvqjrvewrvbz.streamlit.app/
-└── data/
-    └── AI_data.csv
