@@ -75,6 +75,47 @@ Decision History & Evaluation
 
 ---
 
+## 📸 Dashboard Screenshots
+
+### 🏭 Factory AI Dashboard
+
+The main dashboard provides an overview of the smart manufacturing system, including machine data, quality monitoring, predictive maintenance, anomaly detection, and AI-driven decision support.
+
+![Factory AI Dashboard](dashboard.png)
+
+---
+
+### 🔧 Predictive Maintenance
+
+The Predictive Maintenance module evaluates machine conditions and estimates maintenance risk based on operational parameters such as temperature, rotational speed, torque, and tool wear.
+
+![Predictive Maintenance](predictive-maintenance.png)
+
+---
+
+### 🤖 AI Agent Coordination
+
+Multiple AI agents work together to analyze machine conditions, combine their findings, determine overall risk, and generate an AI recommendation for human review.
+
+![AI Agent Coordination](agent-coordination.png)
+
+---
+
+### 👤 Human Approval Center
+
+The Human Approval Center provides a human-in-the-loop workflow where reviewers can approve, reject, or skip AI-generated recommendations.
+
+![Human Approval Center](human-approval.png)
+
+---
+
+### 📋 Approval Center
+
+The approval history records reviewer decisions, timestamps, case IDs, and machine information, providing traceability for AI-assisted decisions.
+
+![Approval Center](approval-center.png)
+
+
 ## 📊 Dataset
 
 The system uses manufacturing machine data containing parameters such as:
@@ -265,5 +306,12 @@ Factory-AI/
 ├── human_approval.py
 ├── check.py
 │
+
+
+##LIVE DEMO
+
+[OPEN THE BELOW LINK FOR THE FACTORY AI DASHBOARD]
+
+https://factory-ai-ycvqmsb8tdrvqjrvewrvbz.streamlit.app/
 └── data/
     └── AI_data.csv
